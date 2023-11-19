@@ -11,7 +11,7 @@ namespace Tyuiu.ModenovaAP.Sprint5.Task0.V11.Test
         [TestMethod]
         public void CheckedExistFile()
         {
-            string path = $@"C:\Users\rusal\source\repos\Tyuiu.ModenovaAP.Sprint5\Tyuiu.ModenovaAP.Sprint5.Task0.V11\bin\Debug\OutPutFileTask0.txt";
+            string path = $@"C:\Users\1\source\repos\Tyuiu.ModenovaAP.Sprint5\Tyuiu.ModenovaAP.Sprint5.Task0.V11\bin\Debug\OutPutFileTask0.txt";
 
             FileInfo fileinfo = new FileInfo(path);
             bool fileExists = fileinfo.Exists;

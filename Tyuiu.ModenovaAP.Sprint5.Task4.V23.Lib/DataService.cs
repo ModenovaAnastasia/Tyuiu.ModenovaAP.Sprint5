@@ -14,7 +14,6 @@ namespace Tyuiu.ModenovaAP.Sprint5.Task4.V23.Lib
         {
             string strX = File.ReadAllText(path);
             double x = double.Parse(strX.Replace(".", ","));
-            
             double res = Math.Round(Math.Pow(x, -3) + 2 + Math.Cos(x), 3);
             return res;
         }
